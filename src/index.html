@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+
     <div class="container-fluid">
         <!-- header -->
         <div class="header">
@@ -37,13 +37,49 @@
 
                         <div class="header__actions">
                             <a href="#" class="header__btn header__btn--green">Login</a>
-                            <a href="#" class="header__btn header__btn--red">Register</a>   
+                            <a href="#" class="header__btn header__btn--red">Register</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- Newest Products -->
+        <div class="newestproducts">
+            <div class="newestproducts__title">Let’s Check Out Our Newest Release Products</div>
+            <div class="newestproducts__tabs">
+                <ul>
+                    <li class="newestproducts__tabs-item"><a href="#tabs-all" class="newestproducts__tabs-item-link">All</a></li>
+                    <li class="newestproducts__tabs-item"><a href="#tabs-wordpress" class="newestproducts__tabs-item-link">WordPress</a></li>
+                    <li class="newestproducts__tabs-item"><a href="#tabs-joomla" class="newestproducts__tabs-item-link">Joomla</a></li>
+                    <li class="newestproducts__tabs-item"><a href="#tabs-plugins" class="newestproducts__tabs-item-link">Plugins</a></li>
+                    <li class="newestproducts__tabs-item"><a href="#tabs-component" class="newestproducts__tabs-item-link">Component</a></li>
+                    <li class="newestproducts__tabs-item"><a href="#tabs-psd" class="newestproducts__tabs-item-link">PSD</a></li>
+                </ul>
+                <div id="tabs-all" class="newestproducts__tabs-content">
+                    <div class="newestproducts__tabs-content-product"> </div>
+                    <div class="newestproducts__tabs-content-product"> </div>
+                    <div class="newestproducts__tabs-content-product"> </div>
+                    <div class="newestproducts__tabs-content-product"> </div>
+                </div>
+                <div id="tabs-wordpress" class="newestproducts__tabs-content">
+                    <div class="newestproducts__tabs-content-product"> </div>
+                    <div class="newestproducts__tabs-content-product"> </div>
+                    <div class="newestproducts__tabs-content-product"> </div>
+                    <div class="newestproducts__tabs-content-product"> </div>
+                </div>
+                <div id="tabs-joomla" class="newestproducts__tabs-content">
+                    <div class="newestproducts__tabs-content-product"> </div>
+                    <div class="newestproducts__tabs-content-product"> </div>
+                    <div class="newestproducts__tabs-content-product"> </div>
+                    <div class="newestproducts__tabs-content-product"> </div>
+                </div>
+            </div>
+        </div>
     </div>
-    
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/init.js"></script>
 </body>
 </html>
