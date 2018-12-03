@@ -15,10 +15,6 @@
     &__right-s {
         display: flex;
         align-items: center;
-
-        @include mobile-large {
-            display: none;   
-        }
     }
 
     &__help {
@@ -92,5 +88,4 @@
             }
         }
     }
-
 }

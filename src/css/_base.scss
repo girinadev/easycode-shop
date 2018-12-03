@@ -9,20 +9,7 @@ body {
     padding: 0 15px;
     overflow-x: hidden;
     max-width: 1200px;
-    margin: 0 auto;
-    
-
-    @include widescreen {
-        max-width: 1000px;   
-    }
-
-    @include laptop {
-        max-width: 870px;   
-    }
-
-    @include tablet {
-        max-width: 770px;   
-    }
+    margin: 0 auto
 }
 
 .link-inherit {
