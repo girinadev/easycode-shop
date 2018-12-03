@@ -1,10 +1,10 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Shop</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
     <!-- font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -12,38 +12,55 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
+  
     <div class="container-fluid">
         <!-- header -->
         <div class="header">
             <div class="container">
+                <div class="header__menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
                 <div class="header__inner">
                     <a href="#" class="header__logo">
                         <img src="img/logo.png" alt="logo">
                     </a>
-
                     <div class="header__right-s">
                         <div class="header__help">
                             <span class="header__label-red">Need help?</span>
                             <span> Talk to an expert: <a class="link-inherit link-decor-inverse" href="tel:+61 3 8376 6284">+61 3 8376 6284</a></span>
                         </div>
-
                         <div class="header__notify">
                             <div class="header__cart">
                                 <i class="fas fa-shopping-cart"></i>
                                 <span class="header__item-number">8</span>
                             </div>
                         </div>
-
                         <div class="header__actions">
                             <a href="#" class="header__btn header__btn--green">Login</a>
-                            <a href="#" class="header__btn header__btn--red">Register</a>
+                            <a href="#" class="header__btn header__btn--red">Register</a>   
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
+        
+        <div class="main-menu">
+            <div class="container">
+                <ul class="main-menu__nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">WordPress</a></li>
+                    <li><a href="#">Joomla</a></li>
+                    <li><a href="#">PSD</a></li>
+                    <li><a href="#">Plugins</a></li>
+                    <li><a href="#">Components</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </div>
+        </div>
+      
         <!-- Newest Products -->
         <div class="newestproducts">
             <div class="newestproducts__title">Let’s Check Out Our Newest Release Products</div> 
@@ -89,10 +106,11 @@
                 </div>
             </div>           
         </div>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    </div>  
+  
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="js/init.js"></script>
+  
 </body>
 </html>
