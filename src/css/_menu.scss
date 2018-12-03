@@ -1,0 +1,58 @@
+// .menu-btn{
+//     display: none;
+
+//     @include mobile-large {
+//         display: block;   
+//     }
+// }
+
+.main-menu {
+    height: 60px;
+    background-color: #263238;
+    color: #ffffff;
+
+    &__nav {
+        display: flex;
+        margin-left: -20px;
+        line-height: 60px;
+
+        @include widescreen {
+            margin-left: -15px;   
+        }
+
+        @include tablet {
+            margin-left: -5px;   
+        }
+
+        @include mobile-large {
+            text-align: right;
+            margin-right: 27px;
+            margin-top: 5px;
+            font-size: 12px;
+            max-height: 0;
+            width: 100%;
+        }
+    }
+
+    &__nav.active {
+        max-height: 120px;
+    }
+
+    &__nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 20px;
+
+        @include widescreen {
+            padding: 20px 15px;   
+        }
+
+        @include tablet {
+            padding: 20px 8px;    
+        }
+    }
+
+    @include mobile-large {
+        display: none;   
+    }
+}
