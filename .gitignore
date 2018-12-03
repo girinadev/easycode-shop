@@ -328,3 +328,5 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+# ignore build and node_modules
+build/

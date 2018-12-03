@@ -1,0 +1,75 @@
+.search {
+    height: 532px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background: #b5b5b5 url(../img/search-background.png) center no-repeat;
+
+    &__center {
+        width: 730px;
+        text-align: center;
+    }
+
+    &__welcome {
+        margin: 0 0 35px 0;
+        padding: 0;
+        color: #ffffff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+
+    &__themes {
+        color: #ffffff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    &__input {
+        margin-top: 54px;
+        padding-left: 25px;
+        width: 641px;
+        height: 56px;
+        box-shadow: 0 1px 10px rgba(124, 178, 64, 0.75);
+        border-radius: 6px;
+        background-color: #ffffff;
+        outline: 0;
+        transition: 0.3s ease-in-out;
+    }
+    &__input:hover {
+        box-shadow: 0 1px 50px rgba(124, 178, 64, 0.75);
+    }
+    &__input--placeholder {
+        @include placeholder {
+            font-family: "Roboto", sans-serif;
+            color: #90a4ae;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 30px;
+            letter-spacing: 0.7px;
+            text-indent: 0px;
+            transition: text-indent 300ms;
+        }
+
+        &:focus {
+            @include placeholder {
+                text-indent: 800px;
+            }
+        }
+    }
+    &__form {
+        position: relative;
+    }
+    &__icon {
+        position: absolute;
+        bottom: 20px;
+        right: 50px;
+        width: 20px;
+        height: 20px;
+        background: url(../img/search-icon.png)
+    }
+}
